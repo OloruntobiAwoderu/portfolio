@@ -5,9 +5,11 @@ import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 
+
 import { PortfolioProvider } from '../context/context';
 
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
+import GithubContributions from './contributions/contributions';
 
 function App() {
   const [hero, setHero] = useState({});
@@ -29,6 +31,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <GithubContributions />
       <Contact />
       <Footer />
     </PortfolioProvider>
