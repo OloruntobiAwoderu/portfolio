@@ -1,5 +1,6 @@
 import React, { useEffect, useState  } from 'react';
 import { Container } from 'react-bootstrap';
+import Title from '../Title/Title';
 
 const GithubContributions = () => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -18,6 +19,7 @@ const GithubContributions = () => {
   return (
     <div id="projects">
       <Container>
+      <Title title="Github Contributions" />
         {isDesktop ? (
           <img
             className="project-wrapper"
