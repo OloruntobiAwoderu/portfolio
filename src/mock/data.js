@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `A Full Stack Developer based in Lagos, Nigeria. Loves learning and implementing new technologies. I'm hardworking, with a flair for creating elegant solutions in the least amount of time. I'm a full-stack developer with a growing affinity to JAMstack applications.`,
+  paragraphOne: `I'm a full stack developer based in Lagos, Nigeria. Loves learning and implementing new technologies. I'm hardworking, with a flair for creating elegant solutions in the least amount of time. I'm a full-stack developer with a growing affinity to JAMstack applications.`,
   paragraphTwo: `I am proficient in Javascript, React, Node, Express, and Python.`,
   paragraphThree: `Over the past two years, I've developed strong creative problem-solving, communication, and organizational skills. I am interested in applying those skills in combination with modern web technologies to build engaging and cutting-edge products.`,
   resume: 'https://drive.google.com/file/d/1jYTDpeivXOlhrZdXGXmVepaup-tGK19v/view?usp=sharing', // if no resume, the button will not show up
@@ -30,7 +30,8 @@ export const projectsData = [
     id: uuidv1(),
     img: 'artfunder.jpg',
     title: 'ArtFunder',
-    info: 'ArtFunder is an E-commerce art web app where schools can sell art to fund their art programs',
+    info:
+      'ArtFunder is an E-commerce art web app where schools can sell art to fund their art programs',
     info2: 'React, Redux, Express, Node.js, MongoDB, Firebase, Stripe',
     url: 'https://art-funder.com/',
     repo: 'https://github.com/orgs/LABS-EU3/teams/studentartcollection', // if no repo, the button will not show up
@@ -81,7 +82,6 @@ export const projectsData = [
     repo: 'https://github.com/OloruntobiAwoderu/E-commerce', // if no repo, the button will not show up
   },
 ];
-
 
 // CONTACT DATA
 export const contactData = {

@@ -1,4 +1,5 @@
-import React, { useEffect, useState  } from 'react';
+/* eslint-disable no-unused-vars */
+import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import Title from '../Title/Title';
 
@@ -19,16 +20,16 @@ const GithubContributions = () => {
   return (
     <div id="projects">
       <Container>
-      <Title title="Github Contributions" />
         {isDesktop ? (
-          <img
-            className="project-wrapper"
-            alt="Github contributions"
-            src="https://ghchart.rshah.org/OloruntobiAwoderu"
-          />
-        ) : (
-         null
-        )}
+          <div>
+            <Title title="Github Contributions" />
+            <img
+              className="project-wrapper"
+              alt="Github contributions"
+              src="https://ghchart.rshah.org/OloruntobiAwoderu"
+            />
+          </div>
+        ) : null}
       </Container>
     </div>
   );
